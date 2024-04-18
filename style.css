@@ -1,0 +1,675 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#logo{
+    margin-top: auto;
+    margin-left: -30px;
+    width: 200px;
+}
+
+#abc{
+    margin-left: 400px;    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#abc ul li:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+#abc ul li{
+    list-style: none;
+    font-size: 40px;
+    margin-right: 70px;
+}
+
+#abc ul{
+    display: flex;
+}
+#headingtext{
+    font-family: "Allerta Stencil", sans-serif;
+    margin-top: 150px;
+    margin-left: 60px;
+    font-size: 80px;
+    display: inline-block;
+}
+#burgerimg{
+    margin-top: 20px;
+    margin-left: 200px;
+    max-width: 100%;
+    height:700px;
+    display: inline-block;
+}
+div{
+    display: flex;
+}
+
+#loginsignup{
+    margin-left: 100px;
+}
+
+#login{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    background-color: yellow;
+    font-size: 30px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+    
+}
+
+#login:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    transform: translateY(-30px);
+}
+
+#signup{
+    margin-left: 12px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    background-color: yellow;
+    font-size: 30px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+
+#signup:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    
+    transform: translateY(-30px);
+}
+#footerall{
+    
+    height: 190px;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+#abcall{
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#abcall ul{
+    display: flex;
+   
+}
+
+#abcall ul a li{
+    list-style: none;
+    font-size: 40px;
+     margin-left: 170px;
+    
+}
+
+#abcall ul li:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+#headerall{
+    background-color: yellow;
+  height: 190px;
+    display: flex;
+    
+}
+
+#abcall{
+  text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+#goglelogin{
+    height:90px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 550px ;
+    font-size: 30px; 
+    background-color: transparent;
+}
+#email{
+    height:90px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 550px ;
+    font-size: 30px; 
+    text-align: center;
+
+}
+
+#pass{
+    height:90px;
+    width: 500px;
+    margin-top: 30px;
+   margin-left: 550px ;
+   font-size: 30px; 
+   text-align: center;
+
+}
+
+#btn{
+    height:90px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 550px ;
+    font-size: 30px; 
+    text-align: center;
+    border-radius: 12px;
+    border-radius: 100px;
+    background-color: transparent;
+}
+
+#btn:hover{
+    border-radius: 100px;
+background-color: yellow;
+color: black;
+box-shadow: 5px 5px 8px  5px black;
+transition: 0.5s;
+}
+
+#goglesignup{
+    height:90px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 550px ;
+    font-size: 30px; 
+}
+
+/* -------------------This is code of manu page------------------ */
+
+#menuline1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+.menu:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 8px  5px black;
+    transform: translatey(-10px);
+
+}
+
+
+#image1{
+    background-image: url(images/991b70d70d65f7b271bc2fe7441b7da8\ 1.png);
+    background-size: cover;
+}
+#image2{
+    background-image: url(images/istockphoto-1206323282-612x612\ 1.png);
+    background-size: cover;
+}
+#image3{
+    background-image: url(images/ice-cream-balloons-chocolates-jam-wallpaper-preview\ 2.png);
+    background-size: cover;
+}
+
+#menuline2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#image4{
+    background-image: url(images/991b70d70d65f7b271bc2fe7441b7da8\ 1.png);
+    background-size: cover;
+}
+
+#image5{
+    background-image: url(images/istockphoto-1206323282-612x612\ 1.png);
+    background-size: cover;
+}
+
+#image6{
+    background-image: url(images/ice-cream-balloons-chocolates-jam-wallpaper-preview\ 2.png);
+    background-size: cover;
+}
+
+/*-------------------------this is of page named contactus.html---------------------------*/
+
+#main-father{
+    display: flex;
+}
+
+#burger-img{
+    background-image: url(images/home-img-2.png);
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+}
+
+#detail-section{
+    display: inline-block;
+}
+
+.basic-user-detail{
+    height: 90px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+
+#but{
+     background-color: transparent;
+     border-radius: 50px;
+     transition: transform 0.3s ease;
+}
+
+#but:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    background-color: yellow;
+}
+
+#query{
+     height: 140px;
+     border-bottom-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+}
+
+.div-i{
+    height: 50px;
+    width: 550px;
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-left: 160px;
+    font-size: 20px;
+    
+}
+
+.div-i p{
+    margin-top: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/*---------------------this is payment page css code---------------------*/
+
+#cointener{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#img1{
+  background-image: url(images/991b70d70d65f7b271bc2fe7441b7da8\ 1.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+#img2{
+    background-image: url(images/istockphoto-1206323282-612x612\ 1.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#img3{
+    background-image: url(images/ice-cream-balloons-chocolates-jam-wallpaper-preview\ 2.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#paymenet-page-link{
+    text-decoration: none;
+    color: black;
+}
+
+#bill-ammount{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#payammount{
+    font-size: 40px;
+    margin-left: auto;
+  margin-right: auto;
+ padding: 25px 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bill-ammount:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+#pay{
+    text-decoration: none;
+    
+}
+
+#pay-now{
+    height: 100px;
+    width: 399px;
+    margin-top: 30px;
+   border-radius: 50px;
+   background-color: transparent;
+   font-size: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+#pay-now:hover{
+transition: 0.4s;
+background-color: yellow;
+box-shadow: 5px 5px 8px  5px black;
+}
+
+/*------------------this is of edit_profile page----------------------*/
+
+#photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border: 2px solid black;
+    background-image: url(images/user-icon.png);
+    background-size: cover;
+    position: absolute;
+    right: 170px;
+    top: 240px;
+}
+
+.detail{
+     position: relative;
+     left: 60px;
+    margin-top: 30px;
+    height: 100px;
+    width: 800px;
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+#hu{
+    height: 100px;
+    width: 600px;
+     font-size: 30px;
+    position: absolute;
+    right: 20px;
+    font-weight:700;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 600px;
+    background-color: transparent;
+}
+
+#hu:hover{
+    background-color: yellow;
+    transition: 0.8s;
+}
+
+#sub{
+    height: 100px;
+    width: 600px;
+    background-color: transparent;
+    top: 850px;
+    right: 400px;
+    position: absolute;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+#sub:hover{
+    background-color: yellow;
+    transition: 0.8s;
+    /* font-family: cursive; */
+}
+
+/*-------------------this is of review page-------------------*/
+
+#main-parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coustmer{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+#i1{
+    background-image: url(images/pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#i2{
+    background-image: url(images/pic-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#i3{
+    background-image: url(images/pic-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#star-1{
+    height: 200px;
+    width: 200px;
+    background-image: url(images/Screenshot\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 300px;
+    margin-left: 45px;
+}
+
+
+#star-2{
+    height: 200px;
+    width: 200px;
+    background-image: url(images/Screenshot\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 300px;
+    margin-left: 45px;
+}
+
+#star-3{
+    height: 200px;
+    width: 200px;
+    background-image: url(images/Screenshot\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 300px;
+    margin-left: 45px;
+}
+
+.rtex{
+    margin-top: 70px;
+    height: 500px;
+    width: 250px;
+}
+
+.rtex p{
+    font-size: 32px;
+}
+
+/* -------------This is code of profile page----------------- */
+
+.simple-details{
+    height: 130px;
+    width: 700px;
+    border: 2px solid black;
+   font-size: 40px;
+   text-align: justify;
+}
+
+.simple-details p{
+    margin-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mee{
+    border-radius: 200px;
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    background-image: url(images/photo.jpg);
+    background-size: cover;
+    margin-left: 160px;
+}
+
+#edit-now{
+    height: 100px;
+    width: 320px;
+    font-size:40px;
+    margin-top: 30px;
+    background-color:yellow;
+    border: transparent;
+ border-radius: 12px;
+ transition: transform 0.3s ease;
+ 
+}
+
+#edit-now:hover{
+      /* background-color: yellow; */
+      transition: 0.4s;
+      border-radius: 50px;  
+      transform: translatey(-10px);
+}
+
+#logout-now{
+    height: 100px;
+    width: 320px;
+    font-size:40px;
+    margin-top: 30px;
+    margin-left: 12px;
+    background-color: red;
+    border: transparent;
+    border-radius: 12px;
+    transition: transform 0.3s ease-out;
+}
+
+#logout-now:hover{
+    /* background-color: red; */
+    transition: 0.4s;
+    border-radius: 50px;
+    border: transparent;
+    color: snow;
+    /* width: 370px; */
+    transform: translatey(-10px)
+}
+
+/* ------------------This is code of last page------------------ */
+
+#dive1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 50px;
+    height: 150px;
+    width: 800px;
+    border: 2px solid black;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Allerta Stencil", sans-serif;
+    background-color: rgb(255, 200, 0);
+}
+
+#dive1 p{
+    margin-top: 27px;
+}
+
+#dive2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 100px;
+    height: 150px;
+    width: 800px;
+    font-size: 70px;
+    font-family: "Cedarville Cursive", cursive;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(255, 200, 0);
+}
+
+#dive2 p{
+    margin-top: 15px;
+}
+
+#rider{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/download\ 18.png);
+    display: inline-block;
+    background-size: cover;
+    margin-right: -50px;
+}
+
+#mid{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* border: 2px solid black; */
+   margin-left: 200px;
+   background-image: url(images/home-img-2.png);
+   background-size: cover;
+}
+
+#meal{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/download\ 18.png);
+  float: inline-end ;
+  background-size: cover;
+ margin-right: 20px;
+}
+
+#last{
+    background: rgb(255,231,0);
+background: linear-gradient(180deg, rgba(255,231,0,1) 29%, rgba(255,255,255,1) 100%);
+}
